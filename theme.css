@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: hsl(0, 29%, 47%);
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  box-shadow: 1px 1px 5px 1px #dfdfdf38;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+}
+img.logo-img {
+  height: 50px;
+  width: 50px;
+}
+.logo {
+  padding: 10px 15px;
+}
+nav.nav {
+  margin-right: 20px;
+}
+a.nav-item {
+  display: inline-block;
+  padding: 15px;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1644982649363-fae51da44eac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    no-repeat;
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+}
+
+.video-section {
+  position: relative;
+  height: 750px;
+}
+
+.bg-video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+img.chat-icon {
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  display: flex;
+}
+
+.chat {
+  padding: 10px;
+  background: dodgerblue;
+  display: inline-block;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999999;
+  bottom: 30px;
+  right: 20px;
+  margin: 0 auto;
+}
